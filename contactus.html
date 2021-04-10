@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
     <header class="header">EM Product Development, LLC
@@ -16,9 +17,39 @@
             <a href="./contactus.html" class="header-nav-link">Contact Us</a>
         </nav>
     </header>
-<main>
+<main class="contact-us-main">
 <h2>Contact Us</h2>
 
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mpzkzkve"
+  class = "contactus-form"
+  method="POST"
+  enctype="multipart/form-data"
+>
+<label>
+    Name:<br/>
+    <input type="text" name="name">
+</label>  
+<label>
+    Phone Number:<br/>
+    <input type="phone" name="phone">
+</label>  
+<label>
+    Your email:<br/>
+    <input type="email" name="_replyto">
+</label>
+<label>
+    Message:<br/>
+    <textarea name="message" id="" cols="30" rows="10"></textarea>
+</label>
+<label>
+    Your file:<br/>
+    <input type="file" name="upload">
+  </label>
+  <button type="submit">Send</button>
+</form>
+</section>
 </main>
     <footer class="footer">
         <nav class="footer-navigation">

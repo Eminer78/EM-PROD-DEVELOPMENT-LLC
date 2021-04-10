@@ -59,6 +59,7 @@ grid-gap: 10px;
 .ideation-heading{
     grid-area: heading;
     text-align: center;
+    padding-top: 10px;
     padding-bottom: 25px;
     
 }
@@ -81,7 +82,7 @@ grid-gap: 10px;
     padding: 25px;
 }
 .ideation-text-block-p{
-    padding: 10px;
+    padding-top: 10px;
 }
 .ideation-text-block-list{
     text-align: left;
@@ -108,5 +109,13 @@ grid-gap: 10px;
 .footer-nav-link{
     margin: 0 12px;
     color: lightgrey
+
+}
+
+.contactus-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
