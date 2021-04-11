@@ -7,9 +7,19 @@ box-sizing: inherit;
 margin:0;
 padding: 0;
 }
+label {
+    display: flex; 
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 24px;  
+    margin: 10px;
+    text-align: left;
+  }
+
+
 .header{
     background-color:lightgray;
-    color:navy;
+    color:rgb(19, 9, 56);
     height: 75px;
     display:flex;
     flex-direction: row;
@@ -20,19 +30,21 @@ padding: 0;
     font-size: xx-large;
     font-weight:bolder;
 }
+
 .header-navigation{
     display: flex;
     flex-basis: 25%;
     justify-content: flex-end;
     justify-content: space-around;
     font-size: medium;
-    font-weight: normal;
-    
+    font-weight: normal;   
 }
+
 .header-nav-link{
-    color:navy;
+    color:rgb(19, 9, 56);
  }
-.main-banner{
+
+ .main-banner{
     height: 400px;
     background-color: cornflowerblue;
     background: url(../IMAGE/ban_placeholder.jpg);
@@ -46,6 +58,7 @@ padding: 0;
     text-align: center;
     font-size: 300%; 
 }
+
 .ideation{
 background-color: lightgrey;
 height: auto;
@@ -56,48 +69,56 @@ grid-template-areas:
 "text1 image1";
 grid-gap: 10px;
 }
+
 .ideation-heading{
     grid-area: heading;
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 25px;
-    
+    padding-bottom: 25px;   
 }
+
 .ideation-image-block{
     width: 80%;
     display: inline-block;  
-    height: 100px;
-    
+    height: 100px;   
 }
+
 .ideation-image-block.image1{
     grid-area:image1;
     justify-content: center;
 }
+
 .ideation-text-block.text1 {
     grid-area:text1;
 }
+
 .ideation-text-block{
     width:80%;
     text-align: left;
     padding: 25px;
 }
+
 .ideation-text-block-p{
     padding-top: 10px;
 }
+
 .ideation-text-block-list{
     text-align: left;
     padding: 25px;
     font-weight: bold;
 }
+
 .ideation-text-block-list-p{
     font-weight: normal;
 }
+
 .pcb-image{
     width:550px;
     height: auto;
 }
+
 .footer{
-    background-color: black;
+    background-color: rgb(19, 9, 56);
     color: lightgrey;
     height: 125px;
     display: flex;
@@ -109,7 +130,51 @@ grid-gap: 10px;
 .footer-nav-link{
     margin: 0 12px;
     color: lightgrey
+}
+input, textarea {
+    width: 400px;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 8px;
+    background: none;
+    border: none;
+    border: 1px solid rgb(19, 9, 56);
+    box-shadow: 4px 4px 8px silver;
+    color:rgb(19, 9, 56);;
+    margin-top: 10px;
+  }
+  button {
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    letter-spacing: 2px;
+    align-content: center;
 
+  }
+
+.contact-us-main{
+    background-color:lightgray;
+    color:rgb(19, 9, 56);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+.contact-us-main-banner{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    background-color: rgb(19, 9, 56);
+    color:lightgray;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
 }
 
 .contactus-form{
@@ -117,5 +182,11 @@ grid-gap: 10px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    text-align: left;
+    border:  rgb(19, 9, 56);
+    background-color: lightgray;
+    padding:1%;
 }
+
+
+
