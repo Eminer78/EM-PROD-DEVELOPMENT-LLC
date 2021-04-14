@@ -197,22 +197,33 @@ input, textarea {
     justify-content: center;
     align-content: center;
     grid-template-columns: 30% 30%;
-    grid-template-rows: 30%;
-    gap: 5em 5em;
+    grid-template-rows: 30% 30% 30%;
+    gap: 3em 3em;
     grid-template-areas:
       ". . "
       ". . "
-      ". . ";
+      ".";
+      font-weight: bolder;
+      font-size: x-large;
   }
   .grid-child {
-    background-color: lightseagreen;
+    color: lightgray;
+    background-color: rgb(19, 9, 56);
     border: 1px solid black;
     padding: 10px;
     text-align: center;
+
    }
    ul{
-    
+    font-weight: normal;
+    font-size: medium;
     text-align: left;   
     padding-top: 20px;
     padding-left: 20%;
+    padding-bottom: 20px;
+   }
+   .grid-child-p{
+    font-weight: normal;
+    font-size: medium;
+
    }
