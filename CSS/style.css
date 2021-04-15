@@ -188,42 +188,46 @@ input, textarea {
     background-color: lightgray;
     padding:1%;
 }
-
-.grid-container {
-    padding: 50px;
-    background-color: lightgray;
-    color: rgb(19, 9, 56);
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    grid-template-columns: 30% 30%;
-    grid-template-rows: 30% 30% 30%;
-    gap: 3em 3em;
-    grid-template-areas:
-      ". . "
-      ". . "
-      ".";
-      font-weight: bolder;
-      font-size: x-large;
-  }
-  .grid-child {
-    color: lightgray;
-    background-color: rgb(19, 9, 56);
-    border: 1px solid black;
-    padding: 10px;
+.grid-child{
+    position: relative;
+    width: 50%;
+    
+}
+.grid-child-image{
+    display: block;
+    width: 30%;
+    height: auto;
     text-align: center;
+}
 
-   }
-   ul{
-    font-weight: normal;
-    font-size: medium;
-    text-align: left;   
-    padding-top: 20px;
-    padding-left: 20%;
-    padding-bottom: 20px;
-   }
-   .grid-child-p{
-    font-weight: normal;
-    font-size: medium;
-
-   }
+.grid-child-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 30%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.grid-child:hover .grid-child-overlay{
+    opacity: 1;
+}
+.grid-child-ul{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    -webkit-transform: translate(-40%, -40%);
+    -ms-transform: translate(-40%, -40%);
+    transform: translate(-40%, -40%);
+    padding-top: 10px;
+    text-align: left;
+}
