@@ -191,13 +191,17 @@ input, textarea {
 .grid-child{
     position: relative;
     width: 50%;
+    padding: 10px;
+    border: black;
     
 }
 .grid-child-image{
+    position: relative;
     display: block;
-    width: 30%;
+    width: 50%;
     height: auto;
     text-align: center;
+    border: black;
 }
 
 .grid-child-overlay{
@@ -206,15 +210,16 @@ input, textarea {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 30%;
+    height: 70%;
+    width: 40%;
     opacity: 0;
     transition: .5s ease;
     background-color: #008CBA;
     color: white;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+    margin-top: 50px;
+    margin-left: 43px;
+    border: black;
 }
 .grid-child:hover .grid-child-overlay{
     opacity: 1;
@@ -228,6 +233,9 @@ input, textarea {
     -webkit-transform: translate(-40%, -40%);
     -ms-transform: translate(-40%, -40%);
     transform: translate(-40%, -40%);
-    padding-top: 10px;
     text-align: left;
+
 }
+.grid-child-p{
+    padding-left: 10%;
+}   
