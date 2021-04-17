@@ -188,9 +188,23 @@ input, textarea {
     background-color: lightgray;
     padding:1%;
 }
+.grid-container {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 15% 15% 15%;
+        gap: 20% 10%;
+        grid-template-areas:
+          ". ."
+          ". ."
+          ". .";
+        padding-left: 10%;    
+        padding-bottom: 5%;
+        padding-top: 1%;
+}
+      
 .grid-child{
     position: relative;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     border: black;
     
@@ -198,7 +212,7 @@ input, textarea {
 .grid-child-image{
     position: relative;
     display: block;
-    width: 50%;
+    width: 100%;
     height: auto;
     text-align: center;
     border: black;
@@ -210,14 +224,14 @@ input, textarea {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 70%;
-    width: 40%;
+    height: 150%;
+    width: 80%;
     opacity: 0;
     transition: .5s ease;
     background-color: #008CBA;
     color: white;
 
-    margin-top: 50px;
+    margin-top: 75px;
     margin-left: 43px;
     border: black;
 }
@@ -226,16 +240,22 @@ input, textarea {
 }
 .grid-child-ul{
     color: white;
-    font-size: 12px;
+    font-size: 1rem;
     position: absolute;
-    top: 40%;
-    left: 40%;
+    top: 30%;
+    left: 30%;
     -webkit-transform: translate(-40%, -40%);
     -ms-transform: translate(-40%, -40%);
     transform: translate(-40%, -40%);
     text-align: left;
+    padding-left: 20%;
+    padding-top: 15%;
 
 }
 .grid-child-p{
-    padding-left: 10%;
+    position: relative;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    
 }   
