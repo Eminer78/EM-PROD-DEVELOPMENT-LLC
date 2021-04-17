@@ -200,6 +200,7 @@ input, textarea {
         padding-left: 10%;    
         padding-bottom: 5%;
         padding-top: 1%;
+        background-color: lightgray;
 }
       
 .grid-child{
@@ -218,6 +219,13 @@ input, textarea {
     border: black;
 }
 
+.grid-child-image2{
+    position: relative;
+    display: block;
+    width: 80%;
+    border: black;
+    padding-left: 15%;
+}
 .grid-child-overlay{
     position: absolute;
     top: 0;
@@ -228,9 +236,8 @@ input, textarea {
     width: 80%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
-    color: white;
-
+    background-color:lightgray;
+    color: rgb(19, 9, 56);
     margin-top: 75px;
     margin-left: 43px;
     border: black;
@@ -239,7 +246,7 @@ input, textarea {
     opacity: 1;
 }
 .grid-child-ul{
-    color: white;
+    color: rgb(19, 9, 56);
     font-size: 1rem;
     position: absolute;
     top: 30%;
@@ -257,5 +264,6 @@ input, textarea {
     text-align: center;
     font-size: x-large;
     font-weight: bolder;
+    color:rgb(19, 9, 56);
     
 }   
