@@ -7,31 +7,28 @@ box-sizing: inherit;
 margin:0;
 padding: 0;
 }
-label {
-    display: flex; 
-    flex-direction: column;
-    font-size: 20px;
-    line-height: 24px;  
-    margin: 10px;
-    text-align: left;
-  }
+
+
+
 
 
 .header{
     background-color:lightgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:rgb(19, 9, 56);
     height: 75px;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
     font-size: xx-large;
     font-weight:bolder;
 }
 
 .header-navigation{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     flex-basis: 25%;
     justify-content: flex-end;
@@ -43,7 +40,36 @@ label {
 .header-nav-link{
     color:rgb(19, 9, 56);
  }
+.ideation{
+    background-color: lightgray;
+    margin-top: -2%;
+    color:rgb(19, 9, 56)
+}
+ .ideation-text-block{
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    text-align: left;
+ }
+.ideation-text-block-list{
+    padding-left: 5%;
+}
+ .ideation-heading{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    color:rgb(19, 9, 56);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
 
+#myMainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
  .main-banner{
     height: 400px;
     background-color: cornflowerblue;
@@ -59,72 +85,6 @@ label {
     font-size: 300%; 
 }
 
-.ideation{
-background-color: lightgrey;
-height: auto;
-display: grid;
-grid-template-columns: 50% 50%;
-grid-template-areas:
-"heading heading"
-"text1 image1";
-grid-gap: 10px;
-}
-
-.ideation-heading{
-    grid-area: heading;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 25px;   
-}
-
-.ideation-image-block{
-    width: 80%;
-    display: inline-block;  
-    height: 100px;   
-    
-}
-
-.ideation-image-block.image1{
-    grid-area:image1;
-    justify-content: center;
-    
-}
-
-.ideation-text-block.text1 {
-    grid-area:text1;
-}
-
-.ideation-text-block{
-    width:100%;
-    text-align: left;
-    padding-top: 5px;
-    font-size: 1em;
-    padding-left: 100px;
-    padding-bottom: 40px;
-
-}
-
-.ideation-text-block-p{
-    padding-top: 10px;
-    font-size: 1.25em;
-}
-
-.ideation-text-block-list{
-    text-align: left;
-    padding: 25px;
-    letter-spacing:1.5px;
-    
-}
-
-.ideation-text-block-list-p{
-    font-weight: normal;
-}
-
-.pcb-image{
-    width:550px;
-    height: auto;
-}
-
 .footer{
     background-color: rgb(19, 9, 56);
     color: lightgrey;
@@ -135,9 +95,10 @@ grid-gap: 10px;
     align-items: center;
 }
 
+
 .footer-nav-link{
     margin: 0 12px;
-    color: lightgrey
+    color: lightgrey;
 }
 input, textarea {
     width: 400px;
@@ -157,7 +118,7 @@ input, textarea {
     padding: 12px;
     font-size: 18px;
     border: none;
-    box-shadow: 3px 3px 8px rgba(133, 94, 94, 0.5);
+    box-shadow: 3px 3px 8px rgb(19, 9, 56);
     cursor: pointer;
     letter-spacing: 2px;
     align-content: center;
@@ -207,7 +168,7 @@ input, textarea {
           ". ."
           ". ."
           ". .";
-        padding-left: 10%;    
+        padding-left: 5%;    
         padding-bottom: 5%;
         padding-top: 1%;
         background-color: lightgray;
@@ -248,8 +209,8 @@ input, textarea {
     transition: .5s ease;
     background-color:lightgray;
     color: rgb(19, 9, 56);
-    margin-top: 75px;
-    margin-left: 75px;
+    margin-top: 15%;
+    margin-left: 10%;
     border: black;
 }
 .grid-child:hover .grid-child-overlay{
@@ -267,15 +228,13 @@ input, textarea {
     text-align: left;
     padding-left: 20%;
     padding-top: 15%;
-
 }
 .grid-child-p{
     position: relative;
     text-align: center;
     font-size: x-large;
     font-weight: bolder;
-    color:rgb(19, 9, 56);
-    
+    color:rgb(19, 9, 56);  
 }   
 .aboutus-container{
     background-color: lightgrey;
@@ -286,8 +245,8 @@ input, textarea {
     grid-template-columns: 50% 50%;
     grid-template-areas:
     "text1 image1";
-    grid-gap: 50px;
-    padding: 10px;
+    grid-gap: 5%;
+    padding: 5%;
     }
 
     .aboutus-image{
@@ -298,13 +257,13 @@ input, textarea {
         
     }
     .aboutus-p{
-        padding-left: 25%;
+        padding-left: 15%;
         text-align: left;
         font-size: 1.5em;
 
     }
     .aboutus-p-h{
-        padding-left: 25%;
+        padding-left: 15%;
         padding-top: 7%;
         padding-bottom: 5%;
         text-align: left;
@@ -312,5 +271,13 @@ input, textarea {
         font-weight: bolder;
     }
 
-
+    label {
+        display: flex; 
+        flex-direction: column;
+        font-size: 20px;
+        line-height: 24px;  
+        margin: 0;
+        text-align: left;
+        padding-top: 10px;
+      }
   
