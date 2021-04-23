@@ -1,338 +1,375 @@
-html{
-    box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+html {
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-*, *:before, *:after{
-box-sizing: inherit;
-margin:0;
-padding: 0;
-}
-
-
-.header{
-    background-color:lightgray;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:rgb(19, 9, 56);
-    height: 75px;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: xx-large;
-    font-weight:bolder;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
-.header-navigation{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    flex-basis: 25%;
-    justify-content: flex-end;
-    justify-content: space-around;
-    font-size: medium;
-    font-weight: normal;   
+/* CSS for index.html */
+.header {
+  background-color: lightgray;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(19, 9, 56);
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: xx-large;
+  font-weight: bolder;
 }
 
-.header-nav-link{
-    color:rgb(19, 9, 56);
- }
-.ideation{
-    background-color: lightgray;
-    margin-top: -2%;
-    color:rgb(19, 9, 56)
-}
- .ideation-text-block{
-     display:flex;
-     flex-direction: row;
-    padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 5%;
-
-   /* text-align: left;*/
- }
- .image-sideboards{
-     justify-content: flex-start;
- }
- .image-sideboards1{
-    justify-content: flex-end;
-}
- .ideation-text-block-text{
-     justify-content: left;
-     padding-left: 5%;
- }
- .ideation-text-block-list{
-  
-    text-align: left;
-}
-.ideation-text-block-p{
-    text-align: left;
-}
- .ideation-heading{
-    padding-top: 2%;
-    padding-bottom: 2%;
-    text-align: center;
-    color:rgb(19, 9, 56);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bolder;
+.header-navigation {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  flex-basis: 25%;
+  justify-content: flex-end;
+  justify-content: space-around;
+  font-size: medium;
+  font-weight: normal;
 }
 
-#myMainContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-}
- .main-banner{
-    height: 400px;
-    background-color: cornflowerblue;
-    background: url(../IMAGE/ban_placeholder.jpg);
-    background-size: cover;
-    background-position: center;
-    color:white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 300%; 
+.header-nav-link {
+  color: rgb(19, 9, 56);
 }
 
-.footer{
-    background-color: rgb(19, 9, 56);
-    color: lightgrey;
-    height: 125px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+.ideation {
+  background-color: lightgray;
+  margin-top: -2%;
+  color: rgb(19, 9, 56);
 }
 
-
-.footer-nav-link{
-    margin: 0 12px;
-    color: lightgrey;
-}
-input, textarea {
-    width: 400px;
-    font-size: 20px;
-    line-height: 24px;
-    padding: 8px;
-    background: none;
-    background-color: white;
-    border: none;
-    border: 1px solid rgb(19, 9, 56);
-    box-shadow: 4px 4px 8px silver;
-    color:rgb(19, 9, 56);
-    margin-top: 10px;
-  }
-  button {
-    margin-top: 10px;
-    padding: 12px;
-    font-size: 18px;
-    border: none;
-    box-shadow: 3px 3px 8px rgb(19, 9, 56);
-    cursor: pointer;
-    letter-spacing: 2px;
-    align-content: center;
-    color:rgb(19, 9, 56);
-  }
-
-.contact-us-main{
-    background-color:lightgray;
-    color:rgb(19, 9, 56);
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    text-align: center;
-    font-weight: bolder;
-    
+.ideation-text-block {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
 }
 
-
-.contact-us-main-banner, .services-main-banner{
-    display: flex;
-    flex-direction: column;
-    height: 150px;
-    width: auto;
-    background-color: rgb(19, 9, 56);
-    color:lightgray;
-    justify-content: center;
-    text-align: center;
-    font-size: xx-large;
-    background: url(../IMAGE/ban_placeholder.jpg);
-    background-size: cover;
-    background-position: center;
+.image-sideboards {
+  justify-content: flex-start;
 }
 
-.contactus-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    border:  rgb(19, 9, 56);
-    background-color: lightgray;
-    padding:1%;
+.image-sideboards1 {
+  justify-content: flex-end;
 }
+
+.ideation-text-block-text {
+  justify-content: left;
+  padding-left: 5%;
+}
+
+.ideation-text-block-list {
+  text-align: left;
+}
+
+.ideation-text-block-p {
+  text-align: left;
+}
+
+.ideation-heading {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  color: rgb(19, 9, 56);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+}
+
+#myMainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main-banner {
+  height: 400px;
+  background-color: cornflowerblue;
+  background: url(../IMAGE/ban_placeholder.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 300%;
+}
+
+.footer {
+  background-color: rgb(19, 9, 56);
+  color: lightgrey;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-nav-link {
+  margin: 0 12px;
+  color: lightgrey;
+}
+
+/* CSS for contactus.html */
+input,
+textarea {
+  width: 400px;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 8px;
+  background: none;
+  background-color: white;
+  border: none;
+  border: 1px solid rgb(19, 9, 56);
+  box-shadow: 4px 4px 8px silver;
+  color: rgb(19, 9, 56);
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  box-shadow: 3px 3px 8px rgb(19, 9, 56);
+  cursor: pointer;
+  letter-spacing: 2px;
+  align-content: center;
+  color: rgb(19, 9, 56);
+}
+
+.contact-us-main {
+  background-color: lightgray;
+  color: rgb(19, 9, 56);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.contact-us-main-banner,
+.services-main-banner {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: auto;
+  background-color: rgb(19, 9, 56);
+  color: lightgray;
+  justify-content: center;
+  text-align: center;
+  font-size: xx-large;
+  background: url(../IMAGE/ban_placeholder.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.contactus-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  border: rgb(19, 9, 56);
+  background-color: lightgray;
+  padding: 1%;
+}
+
+.contact-us-main-banner,
+.services-main-banner {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: auto;
+  background-color: rgb(19, 9, 56);
+  color: lightgray;
+  justify-content: center;
+  text-align: center;
+  font-size: xx-large;
+  background: url(../IMAGE/ban_placeholder.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* CSS for engservices.html */
 .grid-container {
-        display: grid;
-        grid-template-columns: 40% 40%;
-        grid-template-rows: 15% 15% 15%;
-        gap: 20% 10%;
-        grid-template-areas:
-          ". ."
-          ". ."
-          ". .";
-        padding-left: 5%;    
-        padding-bottom: 5%;
-        padding-top: 1%;
-        background-color: lightgray;
-}
-      
-.grid-child{
-    position: relative;
-    width: 100%;
-    padding: 10px;
-    border: black;
-    
-}
-.grid-child-image{
-    position: relative;
-    display: block;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    border: black;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 15% 15% 15%;
+  gap: 20% 10%;
+  grid-template-areas:
+    ". ."
+    ". ."
+    ". .";
+  padding-left: 5%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  background-color: lightgray;
 }
 
-.grid-child-image2{
-    position: relative;
-    display: block;
-    width: 80%;
-    border: black;
-    padding-left: 15%;
+.grid-child {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  border: black;
 }
-.grid-child-overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 150%;
-    width: 80%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color:lightgray;
-    color: rgb(19, 9, 56);
-    margin-top: 15%;
-    margin-left: 10%;
-    border: black;
+
+.grid-child-image {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border: black;
 }
-.grid-child:hover .grid-child-overlay{
-    opacity: 1;
+
+.grid-child-image2 {
+  position: relative;
+  display: block;
+  width: 80%;
+  border: black;
+  padding-left: 15%;
 }
-.grid-child-ul{
-    color: rgb(19, 9, 56);
-    font-size: 1rem;
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    -webkit-transform: translate(-40%, -40%);
-    -ms-transform: translate(-40%, -40%);
-    transform: translate(-40%, -40%);
-    text-align: left;
-    padding-left: 20%;
-    padding-top: 15%;
+
+.grid-child-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150%;
+  width: 80%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: lightgray;
+  color: rgb(19, 9, 56);
+  margin-top: 15%;
+  margin-left: 10%;
+  border: black;
 }
-.grid-child-p{
-    position: relative;
-    text-align: center;
-    font-size: x-large;
-    font-weight: bolder;
-    color:rgb(19, 9, 56);  
-}   
-.aboutus-container{
-    background-color: lightgrey;
-    width: auto;
-    display: grid;
-    position: relative;
-    grid-template-columns: 60% 40%;
-    grid-template-areas:
-    "text1 image1";
-    grid-gap: 5%;
+
+.grid-child:hover .grid-child-overlay {
+  opacity: 1;
+}
+
+.grid-child-ul {
+  color: rgb(19, 9, 56);
+  font-size: 1rem;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  -webkit-transform: translate(-40%, -40%);
+  -ms-transform: translate(-40%, -40%);
+  transform: translate(-40%, -40%);
+  text-align: left;
+  padding-left: 20%;
+  padding-top: 15%;
+}
+
+.grid-child-p {
+  position: relative;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  color: rgb(19, 9, 56);
+}
+
+/* css for aboutus.html*/
+.aboutus-container {
+  background-color: lightgrey;
+  width: auto;
+  display: grid;
+  position: relative;
+  grid-template-columns: 60% 40%;
+  grid-template-areas: "text1 image1";
+  grid-gap: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.aboutus-image {
+  width: 75%;
+  position: relative;
+  padding-left: 20%;
+  padding-top: 5%;
+}
+
+.aboutus-p {
+  padding-left: 15%;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.aboutus-p-h {
+  padding-left: 15%;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  text-align: left;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 750px) {
+  .header {
+    font-size: medium;
+  }
+  .aboutus-p {
+    font-size: 12px;
+  }
+  .aboutus-p-h {
+    font-size: 1em;
+  }
+  .image-sideboards {
+    display: none;
+  }
+  .image-sideboards1 {
+    display: none;
+  }
+  .grid-child-overlay {
+    display: none;
+  }
+  .grid-child-p {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header-navigation {
+    flex-wrap: wrap;
+  }
+  .aboutus-p-h {
+    font-size: 1em;
+  }
+  .grid-child-ul {
+    font-size: 12px;
     padding-left: 5%;
-    padding-right: 5%;
     padding-top: 5%;
-    padding-bottom: 5%;
-    }
-
-    .aboutus-image{
-        width: 75%;
-        position: relative;
-        padding-left: 20%;
-        padding-top: 5%;
-        
-    }
-    .aboutus-p{
-        padding-left: 15%;
-        text-align: left;
-        font-size: 1.5em;
-    }
-    .aboutus-p-h{
-        padding-left: 15%;
-        padding-top: 7%;
-        padding-bottom: 5%;
-        text-align: left;
-        font-size: 1.5em;
-        font-weight: bolder;
-    }
-
-    label {
-        display: flex; 
-        flex-direction: column;
-        font-size: 20px;
-        line-height: 24px;  
-        margin: 0;
-        text-align: left;
-        padding-top: 10px;
-      }
-  @media screen and (max-width: 750px){
-      .header{
-        font-size: medium;
-      }
-      .aboutus-p{
-        font-size: 12px;
-      } 
-      .aboutus-p-h{
-          font-size: 1em;
-      }
-      .image-sideboards{
-        display: none;
-      }
-      .image-sideboards1{
-          display: none;
-      }
-      .grid-child-overlay{
-       display: none; 
-      }
-      .grid-child-p {
-          font-size: medium;
-      }
   }
-  @media screen and (max-width: 1200px){
-    .header-navigation{
-          flex-wrap: wrap;
-    }
-    .aboutus-p-h{
-        font-size: 1em;
-    }
-    .grid-child-ul{
-      font-size: 12px;
-      padding-left: 5%;
-      padding-top: 5%;
-    }
-    
-
-  }
+}
