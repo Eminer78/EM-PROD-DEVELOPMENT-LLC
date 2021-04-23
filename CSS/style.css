@@ -43,14 +43,31 @@ padding: 0;
     color:rgb(19, 9, 56)
 }
  .ideation-text-block{
+     display:flex;
+     flex-direction: row;
     padding-top: 5%;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 5%;
-    text-align: left;
+
+   /* text-align: left;*/
  }
-.ideation-text-block-list{
-    padding-left: 5%;
+ .image-sideboards{
+     justify-content: flex-start;
+ }
+ .image-sideboards1{
+    justify-content: flex-end;
+}
+ .ideation-text-block-text{
+     justify-content: left;
+     padding-left: 5%;
+ }
+ .ideation-text-block-list{
+  
+    text-align: left;
+}
+.ideation-text-block-p{
+    text-align: left;
 }
  .ideation-heading{
     padding-top: 2%;
@@ -144,6 +161,9 @@ input, textarea {
     justify-content: center;
     text-align: center;
     font-size: xx-large;
+    background: url(../IMAGE/ban_placeholder.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .contactus-form{
@@ -288,8 +308,18 @@ input, textarea {
       .aboutus-p-h{
           font-size: 1em;
       }
-
-      
+      .image-sideboards{
+        display: none;
+      }
+      .image-sideboards1{
+          display: none;
+      }
+      .grid-child-overlay{
+       display: none; 
+      }
+      .grid-child-p {
+          font-size: medium;
+      }
   }
   @media screen and (max-width: 1200px){
     .header-navigation{
