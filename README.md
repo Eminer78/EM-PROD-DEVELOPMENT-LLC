@@ -5,7 +5,7 @@ Overview/description of the Project:
 
 This is a website for an engineering services firm that offers program management, electrical, mechanical, and software engineering services for anyone that may need them.
 
-The home page describes in general what the firm does. The services page describes the services that are offered. The about us page describes who we are and our experience. Lastly there is a form that interested parties can cobuntact the firm.
+The home page describes in general what the firm does. The services page describes the services that are offered. The about us page describes who we are and our experience. Lastly there is a form that interested parties can contact the firm.
 
 The site uses HTML, CSS, and there is a bootstrap carousel on the home page.
 
