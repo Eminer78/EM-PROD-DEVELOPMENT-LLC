@@ -1,0 +1,10 @@
+This website is intended to offer services to individuals who may need help designing and developing
+a new product. These new products may include circuit boards, enclosures, software, or testing of items.
+The services offered are intended to supplement existing staff where there are gaps in resources or
+technical expertise.
+
+
+As a manager I want to find a contractor to design a circuit board.
+As an electrical engineer I want to find someone to help write software
+As a inventor I want to find someone to help bring my idea to reality.
+As a user I want to contact the firm about my project.

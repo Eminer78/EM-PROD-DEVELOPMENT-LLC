@@ -1,8 +1,0 @@
-This website is intended to offer services to individuals who may need help designing a circuit board, an enclosure, software, or help testing items.
-
-
-
-As a manager I want to find a contractor to design a circuit board.
-As an electrical engineer I want to find someone to help write software
-As a inventor I want to find someone to help bring my idea to reality.
-As a user I want to contact the firm about my project.
