@@ -9,7 +9,11 @@ The home page describes in general what the firm does. The services page describ
 
 The site uses HTML, CSS, and there is a bootstrap carousel on the home page.
 
-4 things that I would like to enhance on the website are 1. Add more samples of previous projects on the home page. 2. Add more styling elements to the pages as the site is fairly bland. 3. Potentially add other features that would make the page more interactive by adding videos 4. Make the site more user friendly on smaller screen devices.
+Things that I would like to enhance on the website are;
+
+1. Add more samples of previous projects on the home page.
+2. Add more styling elements to the pages as the site is fairly bland.
+3. Potentially add other features that would make the page more interactive by adding videos. 4. Make the site more user friendly on smaller screen devices.
 
 Hosted link
 https://eminer78.github.io/EM-PROD-DEVELOPMENT-LLC/
