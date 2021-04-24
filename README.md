@@ -1,5 +1,4 @@
 Eric Miner
-Cohort 15-A
 
 Overview/description of the Project:
 
